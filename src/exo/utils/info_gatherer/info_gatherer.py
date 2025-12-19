@@ -2,9 +2,9 @@ import os
 import shutil
 import sys
 import tomllib
+from collections.abc import Sequence
 from dataclasses import dataclass, field
 from typing import Self
-from collections.abc import Sequence
 
 import anyio
 from anyio import create_task_group, open_process
